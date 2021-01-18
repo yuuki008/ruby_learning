@@ -10,7 +10,7 @@ class DeepFreezableTest < Minitest::Test
   end
 
   def test_deep_freeze_to_hash
-    assert_equal (
+    assert_equal(
       {'Japan' => 'yen', 'US' => 'dollar', 'India' => 'rupee'},
       Bank::CURRENCIES
     )
